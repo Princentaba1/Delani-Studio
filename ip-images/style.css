@@ -1,3 +1,10 @@
+body{
+    background-color: aliceblue;
+    }
 .intro{
-    background-image: url(h_img.jpeg);
-}
+    background-image: url(../ip-images/Backgrouds/h_img.jpeg);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    }
+
