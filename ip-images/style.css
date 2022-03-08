@@ -4,6 +4,8 @@ body{
 .container{
     background-image: url(../ip-images/Backgrouds/h_img.jpeg);
     background-size:cover;
+    height: 500px;
+    width: 100%;
     text-align: center;
     color: white;
     }
@@ -11,4 +13,10 @@ body{
     text-align: center;
     color: black;
     }
-
+.services{
+    background-image: url(../ip-images/Backgrouds/s_image.jpeg);
+    text-align: center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
