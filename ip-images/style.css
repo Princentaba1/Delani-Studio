@@ -4,19 +4,27 @@ body{
 .container{
     background-image: url(../ip-images/Backgrouds/h_img.jpeg);
     background-size:cover;
-    height: 500px;
-    width: 100%;
+    height: 700px;
+    width: 200%;
     text-align: center;
     color: white;
     }
+.container2{
+    font-size: x-small;
+}
 .aboutus{
     text-align: center;
     color: black;
+    font-size:x-small;
     }
 .services{
     background-image: url(../ip-images/Backgrouds/s_image.jpeg);
     text-align: center;
     background-size: cover;
     height: 300px;
-    color: white;
+    font-size:x-small;
+    color:white;
+    }
+.whatWeDo{
+    text-align: center;
 }
