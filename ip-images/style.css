@@ -4,8 +4,7 @@ body{
 .container{
     background-image: url(../ip-images/Backgrouds/h_img.jpeg);
     background-size:cover;
-    height: 700px;
-    width: 200%;
+    height: 100vh;
     text-align: center;
     color: white;
     }
@@ -21,6 +20,7 @@ body{
     background-image: url(../ip-images/Backgrouds/s_image.jpeg);
     text-align: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     font-size:x-small;
     color:white;
