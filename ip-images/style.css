@@ -8,9 +8,17 @@ body{
     text-align: center;
     color: white;
     }
+.text1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
 .container2{
     font-size: x-small;
-}
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
 .aboutus{
     text-align: center;
     color: black;
@@ -27,4 +35,4 @@ body{
     }
 .whatWeDo{
     text-align: center;
-}
+    }
