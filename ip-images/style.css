@@ -2,7 +2,7 @@ body{
     background-color: aliceblue;
     }
 .container{
-    background-image: url(../ip-images/Backgrouds/h_img.jpeg);
+    background-image: url(./Backgrouds/h_img.jpeg);
     background-size:cover;
     height: 100vh;
     text-align: center;
