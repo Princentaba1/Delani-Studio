@@ -1,10 +1,13 @@
 $(document).ready(function() {
 
-    $("#design").click(function(){
-      $("#design-showing").toggle();
-      $(".hide-design-image").toggle();
+    $(".hide-design-image").click(function(){
+     $(".random").show();
+     $(this).hide();
     })
-  
+  $(".random").click(function(){
+    $(".hide-design-image").show();
+    $(this).hide();
+  })
     $("#development").click(function(){
       $("#development-showing").toggle();
       $(".hide-development-image").toggle();
@@ -14,6 +17,7 @@ $(document).ready(function() {
       $("#product-management-showing").toggle();
       $(".hide-product-management").toggle();
     })
+
   
     //Insert white box upo hover
     $(".Hover").hover(function(){
@@ -23,10 +27,10 @@ $(document).ready(function() {
       $(this).animate({opacity:'0'});
     })
     $('.submit').click(function () {
-        var Name = $('#mce-FNAME').val();
-        var Email = $('#mce-EMAIL').val();
-        var Message = $('#mce-MESSAGE');
-        var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+        let Name = $('#mce-FNAME').val();
+        let Email = $('#mce-EMAIL').val();
+        let Message = $('#mce-MESSAGE');
+        // let key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
         if (Name == '' || Email == '' || Message == '') {
             alert('Please make sure you have filled in the form correctly!');
         } else {
