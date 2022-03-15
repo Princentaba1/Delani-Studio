@@ -6,7 +6,16 @@ body{
     background-size:cover;
     height: 100vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     color: white;
+    }
+.mouse{
+    position: absolute;
+    bottom: 5vh;
+    left: 48%;
     }
 .text1{
     margin-left: auto;
@@ -30,7 +39,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    font-size:x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:small;
     color:white;
     }
 .whatWeDo{
@@ -39,6 +51,12 @@ body{
 .random{
     display: none;
     }
+.random2{
+    display: none;
+}
+.random3{
+    display: none;
+}
 .custom-info-on-portfolio-images {
   height: 280px;
   max-width: 280px;
@@ -70,53 +88,84 @@ textarea[type=text] {
     position:absolute;
         padding-left: 40%;
     }
- 
-#work1:hover{
-    opacity:0.3;
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%;
-    }    
-#work2:hover{
-    opacity:0;
-    background-color: rgba(172, 236, 255, 0.623);
+#work1{
+        position: relative;
+    }
+#work2{
+    position: relative;
+    }
+#work3{
+    position: relative;
+    }
+#work4{
+    position: relative;
+    }
+#work5{
+    position: relative;
+    }
+#work6{
+    position: relative;
+    } 
+#work7{
+    position: relative;
+    }
+#work8{
+    position: relative;
+}
+#Hover_design{
+    display: none;
     position: absolute;
-    top:25%;
-    bottom:25%;
-    left:25%;
-    right:25%;
+    top: 40%;
+    left: 30%;
+    color: rgb(255, 255, 255);
     }
-#work3:hover{
-    opacity:0;
-  background-color: rgba(172, 236, 255, 0.623);
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%;
+#Hover_design2{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(0, 204, 255);
     }
-#work4:hover{
-    opacity:0;
-  background-color: rgba(172, 236, 255, 0.623);
-  position: absolute;
+#Hover_design3{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(0, 0, 0);
     }
-#work5:hover{
-    opacity:0.3;
-  background-color: rgba(172, 236, 255, 0.623);
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%;
+#Hover_design4{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(255, 246, 246);
     }
-#work6:hover{
-    opacity:0.3;
-  background-color: rgba(172, 236, 255, 0.623);
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%;
+#Hover_design5{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(0, 0, 0);
     }
+#Hover_design6{
+        display: none;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        color: rgb(0, 0, 0);
+        }
+#Hover_design7{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    }
+#Hover_design8{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    }
+    

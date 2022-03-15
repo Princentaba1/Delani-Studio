@@ -8,23 +8,82 @@ $(document).ready(function() {
     $(".hide-design-image").show();
     $(this).hide();
   })
-    $("#development").click(function(){
-      $("#development-showing").toggle();
-      $(".hide-development-image").toggle();
-    })
+  $(".hide-development-image").click(function(){
+    $(".random2").show();
+    $(this).hide();
+   })
+ $(".random2").click(function(){
+   $(".hide-development-image").show();
+   $(this).hide();
+ })
+ $(".hide-product-image").click(function(){
+  $(".random3").show();
+  $(this).hide();
+ })
+$(".random3").click(function(){
+ $(".hide-product-image").show();
+ $(this).hide();
+})
   
-    $("#productManagement").click(function(){
-      $("#product-management-showing").toggle();
-      $(".hide-product-management").toggle();
-    })
+   
 
   
-    //Insert white box upo hover
-    $(".Hover").hover(function(){
-      $(this).animate({opacity:'1'});
-    },
-    function(){
-      $(this).animate({opacity:'0'});
+    //Insert white box upon hover
+    $("#work1").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design").hide();
+    })
+    $("#work2").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design2").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design2").hide();
+    })
+    $("#work3").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design3").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design3").hide();
+    })
+    $("#work4").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design4").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design4").hide();
+    })
+    $("#work5").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design5").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design5").hide();
+    })
+    $("#work6").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design6").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design6").hide();
+    })
+    $("#work7").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design7").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design7").hide();
+    })
+    $("#work8").hover(function(){
+      $(this).css("opacity","0.3");
+      $("#Hover_design8").show();
+    },function(){
+      $(this).css("opacity","1")
+      $("#Hover_design8").hide();
     })
     $('.submit').click(function () {
         let Name = $('#mce-FNAME').val();
